@@ -46,7 +46,7 @@ namespace CS_GiaiPtBac2
                     else
                         lblKQ.Text = "Phương trình vô nghiệm";
                 else
-                    lblKQ.Text = "Phương trình có nghiệm x1 = x2: " + ((-c) / b).ToString();
+                    lblKQ.Text = "Phương trình có nghiệm x1 = x2 = " + ((-c) / b).ToString();
             else
             {
                 delta = b * b - 4 * a * c;
